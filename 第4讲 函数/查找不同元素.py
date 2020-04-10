@@ -15,6 +15,10 @@ C = X + Y
 # 转化为 int 类型, 并排序
 C = [int(t) for t in C]  # C = map(int, C)
 C.sort()
+C = [str(t) for t in C]
+
+# Lambda 表达式排序
+C.sort(key = lambda x: int(x))
 
 print(" ".join(C))
 # for i in C:

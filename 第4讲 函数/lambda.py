@@ -4,5 +4,4 @@ f3 = lambda x, y : x * y
 
 print(f1(2,3))
 print(f2(-3))
-print(f2(-3, 4))
-
+print(f3(-3, 4))
